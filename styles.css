@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@500&display=swap');
+h3{
+    text-align: center;
+    font-weight: 600;
+    padding-top: 10px;
+    font-size: 2rem;
+}
+h2{
+    display: inline-block;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 32px;
+    margin-top: 20px;
+}
+h4{
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 150px;
+    font-weight: 700;
+}
+h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+}
+h6{
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+a{
+    text-decoration: none;
+    transition: 0.2s;
+}
+.navbar{
+    height: 15vh;
+}
+.navbar-brand{
+    margin-left: 8rem;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+.nav-item{
+    font-size: 1.3rem;
+}
+.fa-concierge-bell{
+    padding-right: 5px;
+    color: #FF7800;
+}
+.d-flex{
+    position: relative;
+    right: 3rem;
+}
+.mybt-1{
+    border-radius: 20px;
+    color: black;
+    background-color: rgb(221, 219, 219);
+    box-shadow: rgb(58, 57, 57);
+    font-weight: 700;
+}
+.mybt-1:hover{
+    background-color: #FF7800;
+    color: #fff;
+}
+.mybt-2{
+    border-radius: 20px;
+    background-color: #FF7800;
+    color: #fff;
+    font-weight: 700;
+}
+#first{
+    background: linear-gradient(to left, #FF7800 40%, #fff 15%);
+    height: 85vh;
+}
+.heading h1{
+    font-size: 4rem;
+    padding-top: 7rem;
+}
+.heading p{
+    width: 40%;
+    padding-top: 10px;
+}
+.heading span{
+    color: #FF7800;
+}
+.heading .btn{
+    margin-top: 40px;
+}
+.heading .br{
+    border-radius: 40px;
+}
+.s1-img{
+    position: absolute;
+    top: 23%;
+    right: 8%;
+    width: 630px;
+    height: 530px;
+    border-radius: 40px;
+    transform: rotate(-2deg);
+}
+.apps{
+    text-align: center;
+}
+.apps span{
+    color: rgba(29, 214, 153, 0.986);
+    font-weight: 700;
+}
+.card{
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+.btn-lg{
+    font-weight: normal;
+    padding: 15px 35px;
+    border-radius: 20px;
+    
+}
+.pb-10 {
+    padding-bottom: 200px;
+}
+.pt-10{
+    padding-top: 180px;
+}
+.pt-7{
+    padding-top: 60px;
+}
+#four{
+    background-color: #f3ecd2;
+    height: 120vh;
+}
+.imgs img{
+    border-radius: 40px;
+}
+.contact{
+    position: relative;
+    bottom: 20rem;
+    left: 15rem;
+    background-color: #fff;
+    width: 350px;
+    height: 350px;
+    border-radius: 40px;
+}
+.contact i{
+    position: relative;
+    top: 5px;
+    font-size: 25px;
+    color: #FF7800;
+    padding-right: 20px;
+}
+.contact p{
+    padding: 8px;
+    color: rgb(117, 116, 116);
+}
+.contact span{
+    padding-left: 40px;
+}
+#menu{
+    background-color: #fff;
+    height: 100vh;
+    text-align: center;
+}
+.menu{
+    border-radius: 40px;
+}
+.col-lg-3 h3{
+    font-size: 1.5rem;
+    padding: 20px;
+}
+.col-lg-3 a{
+    text-decoration: none;
+    color: #000;
+}
+.price-badge{
+    position:absolute;
+    top: 447.5vh;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 40px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+#fifth{
+    margin-top: 116vh;
+    background-color: #FF7800;
+    height: 100vh;
+}
+.s5-img{
+    position: relative;
+    left: 15%;
+    width: 85%; 
+    height: 100vh; 
+    
+}
+.heading-2 {
+    width: 700px;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.heading-2 h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #fff;
+}
+.heading-2 hr{
+    display: block;
+    width: 10%;
+    height: 3px;
+    border: 0;
+    border-top: 5px solid #fff;
+    margin-bottom: 40px;
+}
+.heading-2 p{
+    color: white;
+    font-size: 1.3rem;
+    padding-top: 20px;
+}
+.btn-light{
+    border-radius: 20px;
+}
+.btn-light:hover{
+    color: #FF7800;
+}
+.btn-outline-light:hover{
+    color: #fff;
+    background-color: #000;
+    border: none;
+}
