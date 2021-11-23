@@ -320,3 +320,62 @@ a:hover{
     padding-bottom: 40px;
 }
 
+
+
+/* mobile view */
+
+@media (max-width: 480px){
+    h3{
+        font-size: 1.5rem;
+    }
+    .mobile{
+        display: none;
+    }
+    .m-btn{
+        display: none;
+    }
+   
+    .nav-item{
+        text-align: center;
+        background-color: #FFf;
+    }
+    .navbar-toggler{
+        position: absolute;
+        top: 15px;
+    }
+    .navbar{
+        height: 10vh;
+    }
+    .s1-img{
+        display: none;
+        position: absolute;
+        top: 23%;
+        right: 8%;
+        width: 330px;
+        height: 265px;
+        transform: none;
+    }
+    #first{
+        background: linear-gradient(to left, #fff 40%, #fff 15%);
+        text-align: center;
+    }
+    .heading h1{
+        font-size: 2rem;
+        padding-top: 3rem;
+    }
+    .heading p{
+        width: 100%;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .heading .me-5{
+        margin: 0;
+        margin-top: 50px;
+        margin-left: 45px;
+    }
+    #two h3{
+        position: relative;
+        bottom: 70px;
+    }
+}
+
