@@ -35,6 +35,10 @@ a{
     text-decoration: none;
     transition: 0.2s;
 }
+.row{
+    padding: 0;
+    margin: 0;
+}
 a:hover{
     color: #FF7800;
 }
@@ -214,9 +218,10 @@ a:hover{
     color: #000;
 }
 .price-badge{
-    position:absolute;
+    position: relative;
+    top: 50px;
+    left: 20px;
     font-family: 'M PLUS 2', sans-serif;
-    top: 447.5vh;
     width: 100px;
     height: 40px;
     background-color: rgb(255, 255, 255);
@@ -513,11 +518,39 @@ label{
     }
     .menu{
         border-radius: 20px;
-        width: 100px;
-        height: 100px;
+        width: 250px;
+        height: 250px;
     }
-    .mobile-menu .row{
-        width: 50% !important;
+    .mobile-menu p{
+        padding: 0 !important;
+    }
+    .price-badge{
+        left: 65px;
+    }
+    #fifth{
+        height: 70vh;
+        position: relative;
+        width: 100%;
+        top: 350vh;
+        margin: 0;
+       
+    }
+    .fifth .col-lg-6{
+        padding: 0;
+    }
+    .s5-img{
+        height: 40vh;
+        left: 0;
+        top: 40px;
+        width: 100%;
+    }
+    .heading-2 {
+        margin-top: 80px;
+        margin-left: 0;
+        width: 100%;
+    }
+    .heading-2 h1{
+        font-size: 1.7rem; 
     }
 }
 
